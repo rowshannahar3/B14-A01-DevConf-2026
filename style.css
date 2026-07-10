@@ -85,4 +85,7 @@ nav {
 .hero-btn{
     position: relative;
     top: 190px;
+    height: 74px;
+    width: 282px;
+    font-size: 24px;
 }
