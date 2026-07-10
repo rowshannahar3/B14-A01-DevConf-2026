@@ -76,12 +76,15 @@ nav {
     font-size: 80px;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero-text p {
     color: #fff;
-    width: 829px;
+    width: 820px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 350;
 }
 
 .hero-btn {
