@@ -104,6 +104,13 @@ nav {
     gap: 56px;
 }
 
+.speakers h1 {
+    color: #000102;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64.4px;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
