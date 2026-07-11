@@ -195,8 +195,7 @@ nav {
     padding: 48px 0 80px;
 }
 
-.prc-card,
-.prc-card-dark {
+.prc-card, .prc-card-dark {
     display: flex;
     flex-direction: column;
     border-radius: 12px;
@@ -215,12 +214,11 @@ nav {
 
 .prc-card-dark {
     border: 1px solid #0D1B2A;
-    background-color: #0F1B2D;
+    background-color: #0D1B2A;
     color: #FFFFFF;
 }
 
-.prc-card h2,
-.prc-card-dark h2 {
+.prc-card h2, .prc-card-dark h2 {
     font-size: 13px;
     font-weight: 500;
     line-height: 19.5px;
@@ -233,8 +231,7 @@ nav {
     color: #93C5FD;
 }
 
-.prc-card h1,
-.prc-card-dark h1 {
+.prc-card h1, .prc-card-dark h1 {
     font-size: 44px;
     font-weight: 700;
     line-height: 44px;
@@ -251,8 +248,7 @@ nav {
     padding-top: 4px;
 }
 
-.prc-card p,
-.prc-card-dark p {
+.prc-card p, .prc-card-dark p {
     color: #333333;
     font-size: 14px;
 }
@@ -262,8 +258,7 @@ nav {
 }
 
 
-.prc-card hr,
-.prc-card-dark hr {
+.prc-card hr, .prc-card-dark hr {
     border: none;
     height: 1px;
     background-color: #E5E7EB;
@@ -273,8 +268,7 @@ nav {
     background: rgba(255, 255, 255, .10);
 }
 
-.prc-card ul,
-.prc-card-dark ul {
+.prc-card ul, .prc-card-dark ul {
     list-style: disc;
     padding: 0 18px;
     display: flex;
@@ -329,7 +323,7 @@ nav {
 
 .prc-btn-pro:hover {
     background: #F8F9FB;
-    color: #2563EB;
+    color: #0D1B2A;
 }
 
 .prc-btn-tm {
@@ -339,7 +333,7 @@ nav {
 }
 
 .prc-btn-tm:hover {
-    background: #181b21;
+    background: #0D1B2A;
     color: #FFFFFF;
 }
 
@@ -435,23 +429,25 @@ nav {
 /* footer section */
 .footer{
     background-color: #0D1B2A;
-    padding: 40px 60px 32px;
+}
+
+.footer-top, .footer-bottom {
+    padding: 40px 100px 32px;
 }
 
 .footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 .footer-logo {
-    height: 32px;
+    height: 36px;
 }
 
 .footer-icon {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .footer-icon a {
@@ -467,7 +463,8 @@ nav {
     border: none;
     height: 1px;
     background: rgba(255,255,255,.2);
-    margin-bottom: 15px;
+    position: relative;
+    top: 18px;
 }
 
 .footer-bottom {
