@@ -192,7 +192,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 370px);
     gap: 24px;
-    padding: 48px 0 80px;
+    padding: 48px 80px 0px;
 }
 
 .prc-card, .prc-card-dark {
@@ -341,7 +341,7 @@ nav {
 .faq {
     padding: 80px 60px;
     background: #F8F9FB;
-    margin: 0 100px 80px;
+    margin: 80px 100px;
     border: 1px solid #E5E7EB;
     border-radius: 20px;
 }
